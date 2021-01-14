@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#Generalcomponent{
+  margin: 60px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.card{
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 5px;
+  overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.card p{
+  padding:5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+}
+
+.card-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
